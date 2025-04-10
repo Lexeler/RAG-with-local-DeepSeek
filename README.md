@@ -53,7 +53,7 @@ SYSTEM_PROMPT = '''
 ```
 
 
-## Скачивание и развертвание локальной модели
+## Скачивание и развертвание локальной модели, а также установка docker
 
 - Для скачивания локальной модели `deepseek-ai/DeepSeek-R1-Distill-Qwen-7B`:
 Следуйте пошаговым указаниям на указанной странице: [OpenVINO QuickStart - LLM models](https://docs.openvino.ai/2025/model-server/ovms_docs_llm_quickstart.html).
@@ -63,6 +63,7 @@ SYSTEM_PROMPT = '''
 ```
 http://localhost:8000/v3/chat/completions
 ```
+- Для скачивания docker следуйте инстрцкциям указанным на странице: [Install Docker Engine](https://docs.docker.com/engine/install/ubuntu/#uninstall-old-versions).
 ## Использование
 
 1. Клонируйте репозиторий:
